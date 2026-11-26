@@ -1,0 +1,23 @@
+name: travel-insurance-claims
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10.6
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - python-dotenv
+  - autopep8
+  - pylint
+  - pip
+  - ipykernel
+  - pymongo
+  - scikit-learn
+  - pip:
+      - mlflow
+      - streamlit
+      - fastapi
