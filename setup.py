@@ -13,12 +13,12 @@ from setuptools import find_packages, setup
 PACKAGE_VERSION = "0.1.0"
 
 requirements = [
-    "pandas==1.3.3",
-    "matplotlib==3.4.3",
-    "seaborn==0.11.2",
-    "python-dotenv==1.0.0",
-    "autopep8==1.6.0",
-    "pylint==2.14.5"
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "python-dotenv",
+    "autopep8",
+    "pylint"
 ]
 
 setup(
@@ -26,7 +26,7 @@ setup(
     version=PACKAGE_VERSION,
     packages=find_packages(where=".", exclude=["tests", "tests.*"]),
     install_requires=requirements,
-    python_requires="==3.10.6",
+    python_requires="==3.10.22",
     keywords="travel-insurance",
     classifiers=[
         "Programming Language :: Python :: 3",
